@@ -28,15 +28,16 @@ const Navigation: React.FC<NavigationProps> = ({ currentPage, setCurrentPage }) 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center">
-            <div className="flex-shrink-0 flex items-center">
-              <Code className="h-8 w-8 text-blue-600 mr-3" />
-              <div>
-                <h1 className="text-xl font-bold text-gray-900">FUFORGEIT</h1>
-                <p className="text-xs text-gray-600">CONSULTANCY SERVICES</p>
+           <div className="flex items-center">
+             <div className="flex-shrink-0" onClick={() => window.location.href = '/'}>
+             <img 
+              src="/src/images/logo.png"
+              alt="FUFORGEIT Logo" 
+                className="h-12 w-auto object-contain" 
+              />
               </div>
-            </div>
-          </div>
+             </div>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">

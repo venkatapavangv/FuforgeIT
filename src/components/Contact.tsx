@@ -59,20 +59,20 @@ Message: ${formData.message}
     {
       icon: <Mail className="h-6 w-6 text-blue-600" />,
       title: 'Email Us',
-      details: 'info@fuforgeit.com',
-      subDetails: 'support@fuforgeit.com'
+      details: 'info@fuforgeit.com'
+      //subDetails: 'support@fuforgeit.com'
     },
     {
       icon: <Phone className="h-6 w-6 text-teal-600" />,
       title: 'Call Us',
-      details: '+91 98765 43210',
-      subDetails: '+91 87654 32109'
+      details:    '+91 94924 81744',
+      subDetails: '+91 80743 30323'
     },
     {
       icon: <MapPin className="h-6 w-6 text-orange-600" />,
       title: 'Visit Us',
       details: 'Regadichelika Village, Kodavalur mandal',
-      subDetails: 'SPSR Nellore Dt, Andhra Pradesh, India'
+      subDetails: 'SPSR Nellore District, Andhra Pradesh, India'
     },
     {
       icon: <Clock className="h-6 w-6 text-purple-600" />,
@@ -196,7 +196,7 @@ Message: ${formData.message}
                       value={formData.phone}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 94924 81744"
                     />
                   </div>
                 </div>
@@ -263,10 +263,10 @@ Message: ${formData.message}
                   <div className="border-l-4 border-blue-600 pl-6">
                     <h4 className="font-semibold text-gray-900 mb-2">Head Office</h4>
                     <p className="text-gray-600">
-                      FUFORGEIT Consultancy Services Pvt Ltd<br />
+                      FUFORGEIT CONSULTANCY SERVICES PVT LTD<br />
                       Regadichelika Village<br />
                       Kodavalur mandal<br />
-                      SPSR Nellore Dt, Andhra Pradesh<br />
+                      SPSR Nellore District, Andhra Pradesh<br />
                       India - 524344
                     </p>
                   </div>
@@ -285,7 +285,7 @@ Message: ${formData.message}
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Phone className="h-5 w-5 text-orange-300 mr-3" />
-                    <span>+91 98765 43210</span>
+                    <span>+91 94924 81744</span>
                   </div>
                   <div className="flex items-center">
                     <Mail className="h-5 w-5 text-orange-300 mr-3" />

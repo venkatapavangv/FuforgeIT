@@ -32,32 +32,32 @@ const About: React.FC = () => {
     { number: '10+', label: 'Years Experience' }
   ];
 
-  const team = [
-    {
-      name: 'Harsha Vardhan',
-      role: 'Chief Executive Officer',
-      image: '',
-      bio: 'Master in enterprise technology solutions'
-    },
-    {
-      name: 'Pavan Kumar',
-      role: 'Chief Technology Officer',
-      image: '',
-      bio: 'Expert in cloud architecture and digital transformation'
-    },
-    {
-      name: 'Venkat',
-      role: 'VP of Engineering',
-      image: '',
-      bio: 'Specializes in scalable software development'
-    },
-    {
-      name: 'Priya',
-      role: 'Head of Training',
-      image: '',
-      bio: 'Passionate about developing tech talent'
-    }
-  ];
+  // const team = [
+  //   {
+  //     name: 'Harsha Vardhan',
+  //     role: 'Chief Executive Officer',
+  //     image: '',
+  //     bio: 'Master in enterprise technology solutions'
+  //   },
+  //   {
+  //     name: 'Pavan Kumar',
+  //     role: 'Chief Technology Officer',
+  //     image: '',
+  //     bio: 'Expert in cloud architecture and digital transformation'
+  //   },
+  //   {
+  //     name: 'Venkat',
+  //     role: 'VP of Engineering',
+  //     image: '',
+  //     bio: 'Specializes in scalable software development'
+  //   },
+  //   {
+  //     name: 'Priya',
+  //     role: 'Head of Training',
+  //     image: '',
+  //     bio: 'Passionate about developing tech talent'
+  //   }
+  // ];
 
   return (
     <div className="py-16">
@@ -171,7 +171,7 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Leadership Team */}
+      {/* Leadership Team
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -189,11 +189,11 @@ const About: React.FC = () => {
                 key={index}
                 className="bg-gray-50 rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2"
               >
-                {/* <img
+                <img
                   src={member.image}
                   alt={member.name}
                   className="w-full h-64 object-cover"
-                /> */}
+                />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     {member.name}
@@ -209,7 +209,7 @@ const About: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Why Choose Us */}
       <section className="py-20 bg-gray-50">
@@ -228,7 +228,7 @@ const About: React.FC = () => {
               },
               {
                 title: 'Proven Track Record',
-                description: 'Successfully delivered 500+ projects with a 98% client satisfaction rate.'
+                description: 'Successfully delivered 2+ projects with a 98% client satisfaction rate.'
               },
               {
                 title: 'End-to-End Solutions',

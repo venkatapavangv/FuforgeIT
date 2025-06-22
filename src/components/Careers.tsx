@@ -77,152 +77,152 @@ Note: Resume attachment needs to be sent separately.
     alert('Thank you for your application! Please attach your resume to the email that opens. We will review your application and get back to you soon.');
   };
 
-  const jobOpenings = [
-    {
-      id: 1,
-      title: 'Senior Full Stack Developer',
-      department: 'Engineering',
-      location: 'Noida, UP',
-      type: 'Full-time',
-      experience: '4-6 years',
-      salary: '₹12-18 LPA',
-      posted: '2 days ago',
-      description: 'We are looking for an experienced Full Stack Developer to join our dynamic team and work on cutting-edge web applications.',
-      requirements: [
-        'Strong experience with React.js, Node.js, and TypeScript',
-        'Proficiency in MongoDB, PostgreSQL, or similar databases',
-        'Experience with cloud platforms (AWS/Azure)',
-        'Knowledge of microservices architecture',
-        'Strong problem-solving skills and attention to detail'
-      ],
-      responsibilities: [
-        'Develop and maintain full-stack web applications',
-        'Collaborate with cross-functional teams',
-        'Write clean, maintainable, and efficient code',
-        'Participate in code reviews and technical discussions'
-      ]
-    },
-    {
-      id: 2,
-      title: 'Data Scientist',
-      department: 'Analytics',
-      location: 'Gurgaon, HR',
-      type: 'Full-time',
-      experience: '3-5 years',
-      salary: '₹15-22 LPA',
-      posted: '5 days ago',
-      description: 'Join our data science team to build machine learning models and derive insights from complex datasets.',
-      requirements: [
-        'Masters in Computer Science, Statistics, or related field',
-        'Strong experience with Python, R, and SQL',
-        'Experience with machine learning frameworks (TensorFlow, PyTorch)',
-        'Knowledge of statistical analysis and data visualization',
-        'Experience with big data technologies (Spark, Hadoop)'
-      ],
-      responsibilities: [
-        'Develop and deploy machine learning models',
-        'Analyze large datasets to identify trends and patterns',
-        'Create data visualization dashboards',
-        'Collaborate with business stakeholders'
-      ]
-    },
-    {
-      id: 3,
-      title: 'Cloud Solutions Architect',
-      department: 'Cloud Services',
-      location: 'Bangalore, KA',
-      type: 'Full-time',
-      experience: '6-8 years',
-      salary: '₹20-28 LPA',
-      posted: '1 week ago',
-      description: 'Lead cloud transformation initiatives and design scalable cloud architectures for our enterprise clients.',
-      requirements: [
-        'AWS/Azure/GCP certifications (Solutions Architect level)',
-        'Experience with infrastructure as code (Terraform, CloudFormation)',
-        'Strong knowledge of containerization (Docker, Kubernetes)',
-        'Experience with DevOps practices and CI/CD pipelines',
-        'Excellent communication and client-facing skills'
-      ],
-      responsibilities: [
-        'Design and implement cloud solutions',
-        'Lead client meetings and technical discussions',
-        'Mentor junior team members',
-        'Ensure adherence to security and compliance standards'
-      ]
-    },
-    {
-      id: 4,
-      title: 'UI/UX Designer',
-      department: 'Design',
-      location: 'Noida, UP',
-      type: 'Full-time',
-      experience: '2-4 years',
-      salary: '₹8-12 LPA',
-      posted: '3 days ago',
-      description: 'Create intuitive and engaging user experiences for our web and mobile applications.',
-      requirements: [
-        'Proficiency in design tools (Figma, Adobe XD, Sketch)',
-        'Strong understanding of user-centered design principles',
-        'Experience with responsive and mobile-first design',
-        'Knowledge of HTML/CSS and front-end frameworks',
-        'Portfolio demonstrating excellent design skills'
-      ],
-      responsibilities: [
-        'Create wireframes, prototypes, and high-fidelity designs',
-        'Conduct user research and usability testing',
-        'Collaborate with developers and product managers',
-        'Maintain design systems and style guides'
-      ]
-    },
-    {
-      id: 5,
-      title: 'Cybersecurity Analyst',
-      department: 'Security',
-      location: 'Remote',
-      type: 'Full-time',
-      experience: '3-5 years',
-      salary: '₹10-16 LPA',
-      posted: '4 days ago',
-      description: 'Protect our clients\' digital assets by implementing robust security measures and monitoring threats.',
-      requirements: [
-        'Bachelor\'s degree in Cybersecurity or related field',
-        'Experience with security tools (SIEM, IDS/IPS, firewalls)',
-        'Knowledge of compliance frameworks (ISO 27001, GDPR)',
-        'Certified Ethical Hacker (CEH) or similar certification',
-        'Strong analytical and problem-solving skills'
-      ],
-      responsibilities: [
-        'Monitor security incidents and respond to threats',
-        'Conduct vulnerability assessments and penetration testing',
-        'Develop security policies and procedures',
-        'Provide security awareness training'
-      ]
-    },
-    {
-      id: 6,
-      title: 'Business Development Manager',
-      department: 'Sales',
-      location: 'Mumbai, MH',
-      type: 'Full-time',
-      experience: '5-7 years',
-      salary: '₹15-25 LPA',
-      posted: '1 week ago',
-      description: 'Drive business growth by identifying new opportunities and building strategic partnerships.',
-      requirements: [
-        'MBA or equivalent business degree',
-        'Proven track record in B2B sales',
-        'Experience in IT services or consulting industry',
-        'Excellent communication and negotiation skills',
-        'Strong network in enterprise technology space'
-      ],
-      responsibilities: [
-        'Identify and pursue new business opportunities',
-        'Build and maintain client relationships',
-        'Prepare proposals and presentations',
-        'Achieve revenue targets and growth objectives'
-      ]
-    }
-  ];
+  // const jobOpenings = [
+  //   {
+  //     id: 1,
+  //     title: 'Senior Full Stack Developer',
+  //     department: 'Engineering',
+  //     location: 'Noida, UP',
+  //     type: 'Full-time',
+  //     experience: '4-6 years',
+  //     salary: '₹12-18 LPA',
+  //     posted: '2 days ago',
+  //     description: 'We are looking for an experienced Full Stack Developer to join our dynamic team and work on cutting-edge web applications.',
+  //     requirements: [
+  //       'Strong experience with React.js, Node.js, and TypeScript',
+  //       'Proficiency in MongoDB, PostgreSQL, or similar databases',
+  //       'Experience with cloud platforms (AWS/Azure)',
+  //       'Knowledge of microservices architecture',
+  //       'Strong problem-solving skills and attention to detail'
+  //     ],
+  //     responsibilities: [
+  //       'Develop and maintain full-stack web applications',
+  //       'Collaborate with cross-functional teams',
+  //       'Write clean, maintainable, and efficient code',
+  //       'Participate in code reviews and technical discussions'
+  //     ]
+  //   },
+  //   {
+  //     id: 2,
+  //     title: 'Data Scientist',
+  //     department: 'Analytics',
+  //     location: 'Gurgaon, HR',
+  //     type: 'Full-time',
+  //     experience: '3-5 years',
+  //     salary: '₹15-22 LPA',
+  //     posted: '5 days ago',
+  //     description: 'Join our data science team to build machine learning models and derive insights from complex datasets.',
+  //     requirements: [
+  //       'Masters in Computer Science, Statistics, or related field',
+  //       'Strong experience with Python, R, and SQL',
+  //       'Experience with machine learning frameworks (TensorFlow, PyTorch)',
+  //       'Knowledge of statistical analysis and data visualization',
+  //       'Experience with big data technologies (Spark, Hadoop)'
+  //     ],
+  //     responsibilities: [
+  //       'Develop and deploy machine learning models',
+  //       'Analyze large datasets to identify trends and patterns',
+  //       'Create data visualization dashboards',
+  //       'Collaborate with business stakeholders'
+  //     ]
+  //   },
+  //   {
+  //     id: 3,
+  //     title: 'Cloud Solutions Architect',
+  //     department: 'Cloud Services',
+  //     location: 'Bangalore, KA',
+  //     type: 'Full-time',
+  //     experience: '6-8 years',
+  //     salary: '₹20-28 LPA',
+  //     posted: '1 week ago',
+  //     description: 'Lead cloud transformation initiatives and design scalable cloud architectures for our enterprise clients.',
+  //     requirements: [
+  //       'AWS/Azure/GCP certifications (Solutions Architect level)',
+  //       'Experience with infrastructure as code (Terraform, CloudFormation)',
+  //       'Strong knowledge of containerization (Docker, Kubernetes)',
+  //       'Experience with DevOps practices and CI/CD pipelines',
+  //       'Excellent communication and client-facing skills'
+  //     ],
+  //     responsibilities: [
+  //       'Design and implement cloud solutions',
+  //       'Lead client meetings and technical discussions',
+  //       'Mentor junior team members',
+  //       'Ensure adherence to security and compliance standards'
+  //     ]
+  //   },
+  //   {
+  //     id: 4,
+  //     title: 'UI/UX Designer',
+  //     department: 'Design',
+  //     location: 'Noida, UP',
+  //     type: 'Full-time',
+  //     experience: '2-4 years',
+  //     salary: '₹8-12 LPA',
+  //     posted: '3 days ago',
+  //     description: 'Create intuitive and engaging user experiences for our web and mobile applications.',
+  //     requirements: [
+  //       'Proficiency in design tools (Figma, Adobe XD, Sketch)',
+  //       'Strong understanding of user-centered design principles',
+  //       'Experience with responsive and mobile-first design',
+  //       'Knowledge of HTML/CSS and front-end frameworks',
+  //       'Portfolio demonstrating excellent design skills'
+  //     ],
+  //     responsibilities: [
+  //       'Create wireframes, prototypes, and high-fidelity designs',
+  //       'Conduct user research and usability testing',
+  //       'Collaborate with developers and product managers',
+  //       'Maintain design systems and style guides'
+  //     ]
+  //   },
+  //   {
+  //     id: 5,
+  //     title: 'Cybersecurity Analyst',
+  //     department: 'Security',
+  //     location: 'Remote',
+  //     type: 'Full-time',
+  //     experience: '3-5 years',
+  //     salary: '₹10-16 LPA',
+  //     posted: '4 days ago',
+  //     description: 'Protect our clients\' digital assets by implementing robust security measures and monitoring threats.',
+  //     requirements: [
+  //       'Bachelor\'s degree in Cybersecurity or related field',
+  //       'Experience with security tools (SIEM, IDS/IPS, firewalls)',
+  //       'Knowledge of compliance frameworks (ISO 27001, GDPR)',
+  //       'Certified Ethical Hacker (CEH) or similar certification',
+  //       'Strong analytical and problem-solving skills'
+  //     ],
+  //     responsibilities: [
+  //       'Monitor security incidents and respond to threats',
+  //       'Conduct vulnerability assessments and penetration testing',
+  //       'Develop security policies and procedures',
+  //       'Provide security awareness training'
+  //     ]
+  //   },
+  //   {
+  //     id: 6,
+  //     title: 'Business Development Manager',
+  //     department: 'Sales',
+  //     location: 'Mumbai, MH',
+  //     type: 'Full-time',
+  //     experience: '5-7 years',
+  //     salary: '₹15-25 LPA',
+  //     posted: '1 week ago',
+  //     description: 'Drive business growth by identifying new opportunities and building strategic partnerships.',
+  //     requirements: [
+  //       'MBA or equivalent business degree',
+  //       'Proven track record in B2B sales',
+  //       'Experience in IT services or consulting industry',
+  //       'Excellent communication and negotiation skills',
+  //       'Strong network in enterprise technology space'
+  //     ],
+  //     responsibilities: [
+  //       'Identify and pursue new business opportunities',
+  //       'Build and maintain client relationships',
+  //       'Prepare proposals and presentations',
+  //       'Achieve revenue targets and growth objectives'
+  //     ]
+  //   }
+  // ];
 
   const benefits = [
     'Competitive salary and performance bonuses',
@@ -331,7 +331,12 @@ Note: Resume attachment needs to be sent separately.
           </div>
           
           <div className="space-y-8">
-            {jobOpenings.map((job) => (
+            <p className="text-2xl font-semibold text-emerald-600 italic mt-6">
+                    We're reviewing talent!<br />
+                      Submit your resume — we’ll connect if there’s a match.
+              </p>
+
+            {/* {jobOpenings.map((job) => (
               <div
                 key={job.id}
                 className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300"
@@ -406,7 +411,7 @@ Note: Resume attachment needs to be sent separately.
                   Apply Now
                 </button>
               </div>
-            ))}
+            ))} */}
           </div>
         </div>
       </section>
@@ -471,27 +476,27 @@ Note: Resume attachment needs to be sent separately.
                     value={applicationData.phone}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
-                    placeholder="+91 98765 43210"
+                    placeholder="+91 94924 81744"
                   />
                 </div>
                 <div>
                   <label htmlFor="position" className="block text-sm font-medium text-gray-700 mb-2">
-                    Position Applied For *
+                    Position Applied For 
                   </label>
                   <select
                     id="position"
                     name="position"
-                    required
+                    // required
                     value={applicationData.position}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
                   >
                     <option value="">Select a position</option>
-                    {jobOpenings.map((job) => (
+                    {/* {jobOpenings.map((job) => (
                       <option key={job.id} value={job.title}>
                         {job.title}
                       </option>
-                    ))}
+                    ))} */}
                     <option value="Other">Other (specify in cover letter)</option>
                   </select>
                 </div>

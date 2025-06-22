@@ -59,7 +59,7 @@ Message: ${enrollFormData.message}
       enrollmentSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
-
+/*
   const programs = [
     {
       title: 'Full Stack Web Development',
@@ -164,11 +164,13 @@ Message: ${enrollFormData.message}
       features: ['Live Campaigns', 'Google Certifications', 'Analytics Tools', 'Case Studies']
     }
   ];
+  */
+ const programs: any[] = []; 
 
   const stats = [
-    { number: '2000+', label: 'Students Trained' },
+    { number: '10+', label: 'Students Trained' },
     { number: '85%', label: 'Job Placement Rate' },
-    { number: '50+', label: 'Industry Partners' },
+    // { number: '5+', label: 'Industry Partners' },
     { number: '4.8/5', label: 'Average Rating' }
   ];
 
@@ -270,6 +272,10 @@ Message: ${enrollFormData.message}
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Choose from our comprehensive range of programs designed to build in-demand skills.
             </p>
+            <p></p>
+            <p className="text-4xl font-semibold text-teal-700 italic">
+                 Stay Tuned — Coming Your Way!
+            </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -308,7 +314,7 @@ Message: ${enrollFormData.message}
                   <div className="mb-4">
                     <h4 className="font-semibold text-gray-900 mb-2">Curriculum:</h4>
                     <ul className="space-y-1">
-                      {program.curriculum.slice(0, 3).map((item, itemIndex) => (
+                      {/* {program.curriculum.slice(0, 3).map((item, itemIndex) => (
                         <li key={itemIndex} className="flex items-center text-sm text-gray-600">
                           <CheckCircle className="h-4 w-4 text-green-500 mr-2 flex-shrink-0" />
                           {item}
@@ -318,19 +324,20 @@ Message: ${enrollFormData.message}
                         <li className="text-sm text-gray-500">
                           +{program.curriculum.length - 3} more topics
                         </li>
-                      )}
+                      )} */}
+                      /*
                     </ul>
                   </div>
                   
                   <div className="flex flex-wrap gap-2 mb-6">
-                    {program.features.map((feature, featureIndex) => (
+                    {/* {program.features.map((feature, featureIndex) => (
                       <span
                         key={featureIndex}
                         className="px-3 py-1 bg-blue-50 text-blue-700 text-xs rounded-full font-medium"
                       >
                         {feature}
                       </span>
-                    ))}
+                    ))} */}
                   </div>
                   
                   <button
@@ -412,12 +419,12 @@ Message: ${enrollFormData.message}
                 </div>
                 <div>
                   <label htmlFor="course" className="block text-sm font-medium text-gray-700 mb-2">
-                    Course Interest *
+                    Course Interest 
                   </label>
                   <select
                     id="course"
                     name="course"
-                    required
+                   // required
                     value={enrollFormData.course}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"

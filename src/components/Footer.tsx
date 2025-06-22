@@ -114,7 +114,7 @@ const Footer: React.FC = () => {
                   <p className="text-gray-400">
                     Regadichelika Village<br />
                     Kodavalur mandal<br />
-                    SPSR Nellore Dt, AP<br />
+                    SPSR Nellore District, AP<br />
                     India - 524344
                   </p>
                 </div>
@@ -122,7 +122,7 @@ const Footer: React.FC = () => {
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-gray-400 mr-3" />
                 <a href="tel:+919876543210" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  +91 98765 43210
+                  +91 94924 81744
                 </a>
               </div>
               <div className="flex items-center">
@@ -142,13 +142,13 @@ const Footer: React.FC = () => {
               © {currentYear} FUFORGEIT Consultancy Services Pvt Ltd. All rights reserved.
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
+              <a href="privacy policy.html" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
                 Privacy Policy
               </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
+              <a href="Terms of service.html" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
                 Terms of Service
               </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
+              <a href="coockie.html" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
                 Cookie Policy
               </a>
             </div>

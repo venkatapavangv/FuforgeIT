@@ -30,7 +30,7 @@ const Navigation: React.FC<NavigationProps> = ({ currentPage, setCurrentPage }) 
           {/* Logo */}
            <div className="flex items-center">
              <div className="flex-shrink-0" onClick={() => window.location.href = '/'}>
-             <img src="/src/images/logo.png"
+             <img src="/images/logo.png"
               alt="FUFORGEIT Logo" 
                 className="h-12 w-auto object-contain" 
               />

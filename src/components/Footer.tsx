@@ -142,7 +142,7 @@ const Footer: React.FC = () => {
               © {currentYear} FUFORGEIT Consultancy Services Pvt Ltd. All rights reserved.
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="privacy policy.html" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
+              <a href="/privacy policy.html" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
                 Privacy Policy
               </a>
               <a href="Terms of service.html" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
